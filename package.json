@@ -1,12 +1,22 @@
 {
-  "name": "opentable_reviews_proxy",
-  "description": "OpenTable Reviews Proxy Server",
-  "author": "Jeff Jardine",
+  "name": "opentable",
+  "version": "1.0.0",
+  "main": "server/index.js",
+  "description": "Recreation of OpenTable website",
   "engines": {
     "node": ">=6.13.0"
   },
-  "scripts": {},
-  "dependencies": {},
+  "scripts": {
+    "start": "nodemon server/server.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.11",
+    "path": "^0.12.7"
+  },
   "devDependencies": {
     "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
   }
