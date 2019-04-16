@@ -1,5 +1,5 @@
 {
-  "name": "opentable",
+  "name": "opentable-proxy",
   "version": "1.0.0",
   "main": "server/index.js",
   "description": "Recreation of OpenTable website",
